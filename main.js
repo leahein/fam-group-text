@@ -1,5 +1,5 @@
 const isWakeWord = (body) => {
-  return body.toLowerCase().startsWith('@einhorn');
+  return body.toLowerCase().trim().startsWith('@einhorn');
 };
 
 const getMessage = (body) => {
